@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#252839"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_weight="1"
+        android:id="@+id/txt1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#253C53"
+        android:gravity="center"
+        android:text="Home"
+        android:textSize="15sp"
+        >
+
+    </TextView>
+
+
+    <LinearLayout
+        android:layout_weight="8"
+        android:id="@+id/allLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_weight="1"
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#252839"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:drawableBottom="@drawable/homeico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="clickHome"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:drawableBottom="@drawable/filterico"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickFilter"
+            >
+
+        </androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickDown"
+            android:drawableBottom="@drawable/downloadico"
+            ></androidx.appcompat.widget.AppCompatButton>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:background="@drawable/button"
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="clickSettings"
+            android:drawableBottom="@drawable/settingsico"
+            ></androidx.appcompat.widget.AppCompatButton>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

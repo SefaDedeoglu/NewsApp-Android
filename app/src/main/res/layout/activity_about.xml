@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#252839"
+    android:weightSum="10"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:background="#253C53"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:layout_weight="1"
+    android:weightSum="7">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="gobackApp"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:drawableRight="@drawable/backico"
+        android:background="#253C53"
+        ></androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="30dp"
+        android:text="About"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:paddingLeft="20dp"></TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbarAlwaysDrawVerticalTrack="true">
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEVELOPERS"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:gravity="center"></TextView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:background="#252839"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/mert">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mert Diriker"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#677077"></TextView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:background="#252839"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/yunus">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Yunus Güneysu"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#677077"></TextView>
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:background="#252839"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/furkan">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Furkan Gülcan"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#677077"></TextView>
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:background="#252839"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/sefa">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sefa Dedeoğlu"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#677077"></TextView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="100dp">
+        <ImageView
+            android:background="#252839"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/ahmet">
+        </ImageView>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ahmet Taş"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:gravity="center"></TextView>
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#677077"></TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="privacy"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:text="Privacy Policy"
+        android:background="@drawable/imagecustom"></androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
+
+
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

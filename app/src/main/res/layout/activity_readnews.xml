@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#252839"
+    android:weightSum="12"
+    android:orientation="vertical"
+    >
+
+<LinearLayout
+    android:layout_weight="1"
+    android:layout_gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:weightSum="7"
+    android:background="#253C53"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="goback"
+        android:background="#253C53"
+        android:drawableRight="@drawable/backico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"></androidx.appcompat.widget.AppCompatButton>
+    <TextView
+
+        android:textColor="@color/white"
+        android:id="@+id/idNewTitle"
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="left"
+        android:layout_marginTop="1dp"
+        android:paddingLeft="35dp"
+        android:text="New"
+        android:textSize="15sp">
+
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/downbutton"
+        android:onClick="downbutton"
+        android:layout_gravity="right"
+        android:layout_weight="2"
+        android:text="Download"
+        android:textColor="@color/white"
+        android:drawableRight="@drawable/downico"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#253C53">
+
+    </androidx.appcompat.widget.AppCompatButton>
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_weight="11"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:paddingTop="15dp"
+                    android:id="@+id/idNewimg"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:maxHeight="100dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/deneme"></ImageView>
+                    <TextView
+                        android:id="@+id/idNewtxt"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:paddingLeft="8dp"
+                        android:paddingRight="15dp"
+                        android:textSize="15sp"
+                        android:text="glkdshgdlskgjsgsdgsdgsdgdsgsdgsdglkghsajhglasjkhjaslhashjsalghsajgsajgsa"
+                        ></TextView>
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

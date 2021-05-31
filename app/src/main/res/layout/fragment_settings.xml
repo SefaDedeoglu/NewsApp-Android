@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:background="#253C53">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:id="@+id/notification"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Notification"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:checked="true"></androidx.appcompat.widget.SwitchCompat>
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginBottom="50dp"
+        android:id="@+id/btnAbout"
+        android:background="@drawable/aboutbutton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom"
+        android:text="ABOUT"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:textStyle="bold">
+
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</FrameLayout>
