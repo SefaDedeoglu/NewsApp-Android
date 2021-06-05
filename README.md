@@ -1,5 +1,5 @@
 
-***Uygulamayı açtığınızda sizi böyle bir ekran karşılıyor*** 
+##***Uygulamayı açtığınızda sizi böyle bir ekran karşılıyor*** 
 
 
 <img width="350px" src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/home.png"></img>
