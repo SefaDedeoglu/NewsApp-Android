@@ -7,7 +7,7 @@
 
 
 
-***Haber okuma sayfası ( aynı şekilde filter sayfasında tıklandığında da bu şekilde)***
+## ***Haber okuma sayfası ( aynı şekilde filter sayfasında tıklandığında da bu şekilde)***
 
 
 <img width="350px" src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/New.png"></img>
@@ -15,7 +15,7 @@
 
 
 
-***Filter sayfası***
+## ***Filter sayfası***
 
 
 <img width="350px" src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/filter.png"></img>
@@ -23,7 +23,7 @@
 
 
 
-***İndirilenler sayfası***
+## ***İndirilenler sayfası***
 
 
 <img width="350px"  src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/downloaded.png"></img>
@@ -31,7 +31,7 @@
 
 
 
-***İndirilen haberin içeriği***
+## ***İndirilen haberin içeriği***
 
 
 <img  width="350px" src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/downNew.png"></img>
@@ -39,14 +39,14 @@
 
 
 
- ***Ayarlar sayfası***
+ ## ***Ayarlar sayfası***
  
  
 <img  width="350px" src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/setting.png"></img>
 
 
 
-***Hakkında sayfası***
+## ***Hakkında sayfası***
 
 
 <img width="350px"  src="https://github.com/SefaDedeoglu/NewsApp-Android/blob/main/photos/about.png"></img>
